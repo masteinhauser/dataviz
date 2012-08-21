@@ -1,0 +1,19 @@
+circle.sphere{
+    fill: deepskyblue;
+    stroke: coral;
+    opacity: 0.7;
+    stroke-width: 3;
+}
+#logo * path{
+    fill: white;
+}
+circle.back{
+    fill:aliceblue;
+    stroke: skyblue;
+}
+circle.three{
+    opacity: 1;
+    stroke-width: 10;
+    stroke: white;
+    fill:none;
+}
