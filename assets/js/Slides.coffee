@@ -28,7 +28,7 @@ SlideRouter = Backbone.Router.extend
 
    allowEmit: true
    # TODO: This should be changed when presenting!!!
-   keyboardEnabled: true
+   keyboardEnabled: false
 
    initialize: (options = {}) ->
       { @slides, @socket } = options

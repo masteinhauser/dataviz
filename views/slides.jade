@@ -34,7 +34,7 @@
            h3 This is better
            .d3#line-chart
 
-         div(Style="float:right; padding-right: 25%; ")
+         div(Style="float:right; padding-right: 15%; ")
            h3 Than this...
            table
              tr
@@ -137,28 +137,131 @@
          ul
 
    .slide
-      h1 What to Display
+      h1 What is D3.js?
       ul
-        li Directly Relevant
-        | Only info used for direct analysis
-        li Timeline based
-        | Visualizations excell at displaying time based data
+         li Data Driven Document(D3)
+         li SVG
+         li Javascript
+         li Minimal library
+
+   .slide
+      h1 Pros/Cons
+      ul
+         li <b>Low-level</b><br>Gives you complete access to the transformation code
+         li <b>High-Level</b><br>Find what you like, plug in the data... Done.
 
       .speaker
          ul
             li 
 
    .slide
-      h1 How to Display
-      .center
-         //img.framed(src="/img/cli.png", width="468", height="540")
+      h1 What to Display
       ul
-         li 
+        li <b>Directly Relevant</b><br>Only info used for direct analysis
+        li <b>Time Scaled</b><br>Visualizations excel at displaying time based data
+        li <b>Clearly Convey Meaning</b><br>Great at revealing non-obvious patterns and info in data
+        li <b>Multi-dimensional/Overlapping</b><br>Complex multi-column data using overlays/multi-axis
 
       .speaker
          ul
             li 
 
+   .slide
+      h1 How to Display Information
+      ul
+         li Old School
+            ul
+               li Line
+               li Bar
+               li Pie
+
+   .slide
+      h1 How to Display Information
+      ul
+         li D3.js
+            ul
+               li 
+                  a(href="http://benjchristensen.com/2012/05/02/line-graphs-using-d3-js/") Line
+               li 
+                  a(href="http://mbostock.github.com/d3/ex/stack.html") Bar
+               li 
+                  a(href="http://mbostock.github.com/d3/ex/bullet.html") Bullet
+               li 
+                  a(href="http://mbostock.github.com/d3/talk/20111116/iris-splom.html") Scatter Plot
+               li 
+                  a(href="http://mbostock.github.com/d3/talk/20111018/tree.html") Tree
+               li 
+                  a(href="http://mbostock.github.com/d3/talk/20111018/choropleth.html") Maps
+               li 
+                  a(href="http://mbostock.github.com/d3/ex/force.html") Force
+               li
+                  a(href="http://plunker.no.de/edit/GkSsLl?preview=on") Timeline
+               li
+                  a(href="https://github.com/mbostock/d3/wiki/Gallery") Many, many more...
+
+   .slide
+      h1 D3.js Compatibility
+      ul
+         li "Modern" browsers
+            ul
+               li Firefox
+               li Chrome (Chromium)
+               li Safari (Webkit)
+               li Opera
+               li IE9
+         li IE8 works with:
+            ul
+               li
+                  a(href="https://github.com/shawnbot/aight") Aight
+               li
+                  a(href="http://sizzlejs.com/") Sizzle
+
+   .slide
+      h1 ADC Examples
+      ul <b>Internal</b>
+         li
+            a(href="http://viz.adc4gis.local") Viz Tool
+         li
+            a(href="http://dashboard.adc4gis.local") Systems Dashboard
+
+      ul <b>External</b>
+         li None, yet...
+
+   .slide
+      h1 Tutorials + Helpful Links
+      ul
+         li Tutorials
+         ul
+            li
+               a(href="http://christopheviau.com/d3_tutorial/") Christophe Viau
+            li 
+               a(href="http://bost.ocks.org/mike/d3/workshop/") Mike Bostock - VIZBI 2012
+            li
+               a(href="http://bost.ocks.org/mike/join/") Mike Bostock - Thinking in Joins
+            li
+               a(href="http://alignedleft.com/tutorials/d3/") Scott Murray - D3 Tutorials
+            li
+               a(href="http://www.recursion.org/d3-for-mere-mortals/") D3 for Mere Mortals
+            li
+               a(href="http://enja.org/") Ian Johnson
+         li Helpful Links
+         ul
+            li
+               a(href="http://d3js.org") D3.js Main Site
+            li
+               a(href="https://github.com/mbostock/d3") D3.js Github
+            li
+               a(href="https://github.com/mbostock/d3/wiki") D3.js Wiki on GitHub
+            li
+               a(href="https://github.com/mbostock/d3/wiki/Gallery") D3.js Gallery + Tools/Snippets/etc.
+            li
+               a(href="http://nvd3.com") NVD3
+            li
+               a(href="http://nvd3.com/livecode/") NVD3 - Live Code (Excellent!)
+            li
+               a(href="http://www.d3-generator.com/") D3.js Bar Chart Generator
+            li
+               a(href="http://jsfiddle.net/plaliberte/HAXyd/") Export to PNG
    .slide
       h1 Questions + Discussion
       p Technologies used in this presentation:
@@ -192,8 +295,8 @@
    #keyboard-enable
 
    #footer
-      a(href="http://github.com/masteinhauser/data-viz", target='_blank')
-       | http://github.com/masteinhauser/data-viz
+      a(href="http://github.com/masteinhauser/dataviz", target='_blank')
+       | http://github.com/masteinhauser/dataviz
       .upper
          | Myles A. K. Steinhauser 
          a(href="http://twitter.com/masteinhauser") @masteinhauser
