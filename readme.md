@@ -17,7 +17,7 @@ Visit `http://localhost:3000` in a browser to view the slides.  Visit `http://lo
 ## Credits
 
 Built around an idea from [@EsaMatti](http://twitter.com/EsaMatti)'s project [geekslides](https://github.com/epeli/geekslides).
-Implemented by [@wavded](http://twitter.com/wavded) with updates.
+Implemented by [@wavded](http://twitter.com/wavded) with updates and content by [@masteinhauser](http://twitter.com/masteinhauser).
 
 ## License
 
